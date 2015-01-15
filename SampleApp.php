@@ -10,7 +10,7 @@
     $curl_opts=null;//Array to set additional CURL options or override the default options of the SimpleRestClient
     $post_data=null;//Array or string to set POST data 
     $user_agent = "PHP Sample Rest Client";
-    $url = "https://ws.admin.washington.edu/student/v4/public/course/2009,summer,info,344/a";
+    $url = "https://ws.admin.washington.edu/student/v5/course/2009,summer,info,344/a";
 
     $restclient = new SimpleRestClient($cert_file, $key_file, $key_password, $user_agent, $curl_opts);
     
